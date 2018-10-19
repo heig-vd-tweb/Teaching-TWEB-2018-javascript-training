@@ -6,7 +6,7 @@ function arraySum(array) {
 
 function nonUniqueElements(data) {
   // Filter the array by removing the elements that appear twice or more.
-  return data.filter  (v => data.indexOf(v) !== data.lastIndexOf(v));
+  return data.filter(v => data.indexOf(v) !== data.lastIndexOf(v));
 }
 
 // Basic ugly anti-JS solution.
